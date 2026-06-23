@@ -2,7 +2,7 @@
 
 This repository implements and evaluates a **GraphRAG** pipeline (using **NetworkX** for graph traversal) against a **Flat RAG** pipeline (using **FAISS** and **Sentence Transformers** for dense vector retrieval) on the **Tech Company Corpus** (70 research and market report documents regarding the U.S. EV industry).
 
-The project is configured to work with an OpenAI-compatible reasoning model endpoint (`/var/lib/vllm/hf/gpt-oss-120b`).
+The project is configured to work with an OpenAI-compatible reasoning model endpoint (`gpt-oss-120b`).
 
 ---
 
@@ -55,9 +55,9 @@ pip install -r requirements.txt
 ### 4. Configuration (`.env`)
 Create a `.env` file in the root directory (or ensure the configured path in `graph_rag.py` exists) with your API details:
 ```env
-OPENAI_BASE_URL="http://14.241.208.1:443/v1"
+OPENAI_BASE_URL="your-api-base-url-here"
 OPENAI_API_KEY="your-api-key-here"
-MODEL_NAME="/var/lib/vllm/hf/gpt-oss-120b"
+MODEL_NAME=""
 ```
 
 ---
