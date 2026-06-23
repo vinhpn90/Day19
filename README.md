@@ -1,59 +1,59 @@
-# Evaluation of GraphRAG vs Flat RAG (U.S. EV Market Lab)
+# Đánh giá GraphRAG vs Flat RAG (Lab về Thị trường Xe điện U.S. EV)
 
-This repository implements and evaluates a **GraphRAG** pipeline (using **NetworkX** for graph traversal) against a **Flat RAG** pipeline (using **FAISS** and **Sentence Transformers** for dense vector retrieval) on the **Tech Company Corpus** (70 research and market report documents regarding the U.S. EV industry).
+Kho lưu trữ này triển khai và đánh giá một pipeline **GraphRAG** (sử dụng **NetworkX** để duyệt đồ thị) so với pipeline **Flat RAG** (sử dụng **FAISS** và **Sentence Transformers** để truy xuất vector mật độ cao - dense vector retrieval) trên bộ dữ liệu **Tech Company Corpus** (gồm 70 tài liệu nghiên cứu và báo cáo thị trường về ngành công nghiệp xe điện Mỹ - U.S. EV).
 
-The project is configured to work with an OpenAI-compatible reasoning model endpoint (`gpt-oss-120b`).
-
----
-
-## Key Features
-
-- **Document Processing**: Cleans binary PDF stream garbage (e.g. from `doc_50.txt`) before RAG indexing.
-- **Triples Indexing**: Extracts knowledge graph triples `(Subject, Relation, Object)` using parallel processing and caches them locally to save API tokens and time.
-- **FAISS Flat RAG**: Chunks documents and builds a dense vector search index utilizing `faiss.IndexFlatIP` and the local `all-MiniLM-L6-v2` embedding model.
-- **Optimized GraphRAG**: 
-  - Dynamic entity query matching.
-  - **Hub-node mitigation** (stops BFS traversal through high-degree hub nodes like `"U.S."` or `"Q1 2024"` to prevent context cluttering).
-  - **Brand connection linking** (`BRAND_LINK` edges are automatically added between same-brand entities to connect disjoint components).
-- **Comparison Benchmark**: Evaluates both systems on 20 complex, multi-hop industry questions, tracking response time, accuracy, token count, and cost.
+Dự án được cấu hình để hoạt động với một endpoint mô hình suy luận tương thích với OpenAI (`gpt-oss-120b`).
 
 ---
 
-## Project Structure
+## Tính năng chính
+
+- **Xử lý tài liệu**: Làm sạch các dữ liệu rác từ luồng nhị phân PDF (ví dụ từ file `doc_50.txt`) trước khi lập chỉ mục RAG.
+- **Lập chỉ mục Triples (Bộ ba)**: Trích xuất các bộ ba đồ thị tri thức `(Subject, Relation, Object)` sử dụng xử lý song song và lưu bộ nhớ đệm (cache) cục bộ để tiết kiệm token API và thời gian.
+- **FAISS Flat RAG**: Chia nhỏ tài liệu thành các đoạn (chunk) và xây dựng chỉ mục tìm kiếm vector mật độ cao sử dụng `faiss.IndexFlatIP` kết hợp mô hình embedding cục bộ `all-MiniLM-L6-v2`.
+- **GraphRAG tối ưu**: 
+  - Khớp truy vấn thực thể động (Dynamic entity query matching).
+  - **Giảm thiểu nút trung tâm (Hub-node mitigation)**: Ngăn chặn việc duyệt BFS đi qua các nút có bậc cao (nhiều kết nối) như `"U.S."` hoặc `"Q1 2024"` nhằm tránh gây nhiễu ngữ cảnh.
+  - **Liên kết thương hiệu (Brand connection linking)**: Tự động thêm các cạnh `BRAND_LINK` giữa các thực thể cùng thương hiệu để liên kết các thành phần rời rạc trong đồ thị.
+- **Đánh giá so sánh (Benchmark)**: Đánh giá cả hai hệ thống trên bộ 20 câu hỏi phức tạp (đa bước - multi-hop) liên quan đến ngành công nghiệp, theo dõi thời gian phản hồi, độ chính xác, số lượng token tiêu thụ và chi phí.
+
+---
+
+## Cấu trúc Dự án
 
 ```
-├── dataset/                  # Directory containing 70 txt documents
-├── requirements.txt          # Python dependencies
-├── graph_rag.py              # Main pipeline execution script
-├── generate_report.py        # Lab report compiler script
-├── extracted_triples.json    # Cached LLM-extracted triples
-├── benchmark_results.json    # 20 benchmark questions outputs
-├── GraphRAG_Lab_Report.md    # Generated comparative analysis report
-└── knowledge_graph.png       # Knowledge graph visualization (Matplotlib)
+├── dataset/                  # Thư mục chứa 70 tài liệu dạng văn bản (.txt)
+├── requirements.txt          # Các thư viện Python cần thiết
+├── graph_rag.py              # Script thực thi chính cho pipeline RAG
+├── generate_report.py        # Script tổng hợp báo cáo kết quả Lab
+├── extracted_triples.json    # Bộ ba trích xuất từ LLM được lưu cache cục bộ
+├── benchmark_results.json    # Kết quả trả lời của 20 câu hỏi benchmark
+├── GraphRAG_Lab_Report.md    # Báo cáo phân tích so sánh được tạo ra
+└── knowledge_graph.png       # Hình ảnh trực quan hóa đồ thị tri thức (Matplotlib)
 ```
 
 ---
 
-## Installation & Setup
+## Cài đặt & Thiết lập
 
-### 1. Prerequisites
-- Python 3.10 or higher
-- Access to an OpenAI-compatible LLM API endpoint
+### 1. Yêu cầu hệ thống
+- Python 3.10 trở lên
+- Quyền truy cập vào một API endpoint LLM tương thích với OpenAI
 
-### 2. Create and Activate Virtual Environment
+### 2. Tạo và kích hoạt môi trường ảo (Virtual Environment)
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # On macOS/Linux
-# venv\Scripts\activate   # On Windows
+source venv/bin/activate  # Trên macOS/Linux
+# venv\Scripts\activate   # Trên Windows
 ```
 
-### 3. Install Dependencies
+### 3. Cài đặt các thư viện phụ thuộc
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configuration (`.env`)
-Create a `.env` file in the root directory (or ensure the configured path in `graph_rag.py` exists) with your API details:
+### 4. Cấu hình (`.env`)
+Tạo một file `.env` ở thư mục gốc (hoặc đảm bảo đường dẫn được cấu hình trong `graph_rag.py` tồn tại) với các thông tin API của bạn:
 ```env
 OPENAI_BASE_URL="your-api-base-url-here"
 OPENAI_API_KEY="your-api-key-here"
@@ -62,25 +62,25 @@ MODEL_NAME=""
 
 ---
 
-## Execution Guide
+## Hướng dẫn thực thi
 
-### 1. Run the RAG Pipeline
-Run the main script to build the graph, visualize it, and evaluate both RAG systems:
+### 1. Chạy Pipeline RAG
+Chạy script chính để xây dựng đồ thị, trực quan hóa đồ thị và đánh giá cả hai hệ thống RAG:
 ```bash
 python3 graph_rag.py
 ```
 
-*Note: The first run will fetch triples via the LLM API and download the local embedding model (~90MB). Subsequent runs will instantly load the cached `extracted_triples.json`.*
+*Lưu ý: Ở lần chạy đầu tiên, hệ thống sẽ trích xuất các bộ ba qua API LLM và tải xuống mô hình embedding cục bộ (~90MB). Các lần chạy tiếp theo sẽ tự động load dữ liệu đã lưu cache từ `extracted_triples.json` gần như ngay lập tức.*
 
-#### Dry-Run (Quick Test)
-To verify everything is working without running all 70 documents, you can run a dry-run using the first 2 documents and 1 test query:
+#### Chạy thử (Dry-Run / Kiểm tra nhanh)
+Để xác minh hệ thống hoạt động ổn định mà không cần xử lý toàn bộ 70 tài liệu, bạn có thể chạy thử nghiệm với 2 tài liệu đầu tiên và 1 câu hỏi test:
 ```bash
 python3 graph_rag.py --dry-run
 ```
 
-### 2. Compile the Lab Report
-Run the helper script to aggregate token usage, cost stats, benchmark answers, and compile the report:
+### 2. Biên soạn Báo cáo Lab
+Chạy script bổ trợ để tổng hợp lượng sử dụng token, số liệu thống kê chi phí, câu trả lời benchmark và biên soạn báo cáo:
 ```bash
 python3 generate_report.py
 ```
-This writes the final results directly to [GraphRAG_Lab_Report.md](GraphRAG_Lab_Report.md).
+Kết quả cuối cùng sẽ được ghi trực tiếp vào file [GraphRAG_Lab_Report.md](GraphRAG_Lab_Report.md).
