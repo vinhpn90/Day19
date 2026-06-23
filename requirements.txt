@@ -1,0 +1,8 @@
+networkx
+matplotlib
+pandas
+openai
+python-dotenv
+scikit-learn
+faiss-cpu
+sentence-transformers

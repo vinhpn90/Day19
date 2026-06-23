@@ -1,0 +1,463 @@
+[
+  {
+    "id": 1,
+    "question": "What are the specific EV sales growth percentages for Mercedes-Benz, BMW, and Cadillac in Q1 2024?",
+    "flat_rag": {
+      "answer": "Based on the documents, the year‑over‑year EV sales growth in Q1 2024 was:\n\n- **Mercedes‑Benz:** +66.9%  \n- **BMW:** +62.6%  \n- **Cadillac:** +499.2%  \n\nThese percentages reflect the increase in each brand’s electric‑vehicle sales compared with Q1 2023.",
+      "sources": [
+        "doc_15.txt",
+        "doc_2.txt",
+        "doc_67.txt"
+      ],
+      "time_taken": 5.177941083908081,
+      "prompt_tokens": 1865,
+      "completion_tokens": 207
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Mercedes-Benz Group AG, Mercedes-Benz Cars, Mercedes-Benz Vans, Mercedes-Benz Mobility, Chairman of the Board of Management, Mercedes-Benz Group AG, Chairman of the Supervisory Board, Mercedes-Benz Group AG, MMA (Mercedes-Benz Modular Architecture), Mercedes-Benz, Mercedes, BMW EV sales Q1 2024, BMW, Cadillac, Ford, Hyundai, Kia, Lexus, Mercedes, Rivian, Vinfast, BMW, Cadillac EV sales Q1 2024, Cadillac EV model, Cadillac Lyriq, EV sales in US Q1 2024, EV sales Q1 2024, Tesla US sales Q1 2024, Tesla market share Q1 2024, Average transaction price Q1 2024, Tesla average transaction price Q1 2024, Leased EV proportion Q1 2024, Mercedes EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024",
+      "context_triples_count": 150,
+      "time_taken": 1.125196933746338,
+      "prompt_tokens": 5483,
+      "completion_tokens": 130
+    }
+  },
+  {
+    "id": 2,
+    "question": "Which brand recorded a 499.2% increase in sales in Q1 2024 and which model was responsible for it?",
+    "flat_rag": {
+      "answer": "Based on the documents, I cannot answer this query.",
+      "sources": [
+        "doc_16.txt",
+        "doc_30.txt",
+        "doc_61.txt",
+        "doc_67.txt"
+      ],
+      "time_taken": 0.8243000507354736,
+      "prompt_tokens": 1820,
+      "completion_tokens": 143
+    },
+    "graph_rag": {
+      "answer": "The brand that posted a **499.2 % year‑over‑year sales increase in Q1 2024** was **Cadillac**.  \nThe surge was driven by its **Cadillac Lyriq** electric model.",
+      "entity": "499.2%, 49, 2, 2%, EV sales in US Q1 2024, EV sales Q1 2024, Tesla US sales Q1 2024, Tesla market share Q1 2024, Average transaction price Q1 2024, Tesla average transaction price Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024",
+      "context_triples_count": 150,
+      "time_taken": 1.5612139701843262,
+      "prompt_tokens": 5456,
+      "completion_tokens": 206
+    }
+  },
+  {
+    "id": 3,
+    "question": "Compare the market share of Tesla in U.S. Q1 2024 vs Q1 2023.",
+    "flat_rag": {
+      "answer": "Tesla’s U.S. market share fell sharply between the two quarters:\n\n- **Q1 2023:** 61.7% of U.S. EV sales  \n- **Q1 2024:** 51.3% of U.S. EV sales  \n\nThis represents a decline of roughly **10.4 percentage points** year‑over‑year.",
+      "sources": [
+        "doc_2.txt",
+        "doc_61.txt"
+      ],
+      "time_taken": 1.3026361465454102,
+      "prompt_tokens": 1922,
+      "completion_tokens": 237
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Tesla US sales Q1 2024, Tesla market share Q1 2024, Tesla market share Q1 2023, Tesla average transaction price Q1 2024, second highest behind Tesla, Tesla, Model 3 Tesla price in China, Tesla Model 3 (≈50% of US EV sales), Tesla, Nikola, NIO, Workhorse, Hyliion, QuantumScape, Tesla Model 3, Tesla Model Y price, Tesla Model Y price Jan 2023, Tesla Model Y price end 2023, Tesla Model Y, Tesla Superchargers, Tesla charging infrastructure total, Tesla charging infrastructure, Tesla Model X, Average Tesla owner 2022, Tesla owner income, Tesla as top BEV producer by end of 2024, Tesla_Roadster_2008, over_50_percent_Tesla_deliveries_2022, CEO of Tesla, Tesla Semi, Tesla Inc, Tesla Model 3 in China, U.S. Energy Information Administration (EIA), U.S. Consumption of Electricity by Light-Duty Electric Vehicle Types, estimated U.S. consumption of electricity by light-duty electric vehicle types, U.S. BEV volume, U.S. EV adoption, U.S. EV market, around 70% of U.S. EV sales, ~8% U.S. EV sales penetration, U.S. Electric Vehicle Manufacturing Investments and Jobs: Characterizing the Impacts of the Inflation Reduction Act after 18 Months, U.S. electric vehicle and battery manufacturing market, U.S. manufacturing facilities, Recent EV manufacturing investments in the U.S. are outpacing every other region, Private investments in the U.S. since 2021, U.S. investments from 2016 to 2020, approximately 30% of total U.S. energy needs, approximately 70% of U.S. petroleum consumption, U.S. economy and diversify transportation fleet, second-most prevalent U.S. electricity source in 2020, U.S.-China Economic and Security Review Commission, U.S. stock exchanges, U.S. EV models 2022, Ford (U.S.), U.S. policy recommendation, Lucid (U.S. electric vehicle maker), U.S., June 11 2024 at 8:00 AM U.S. Eastern Time, U.S. and Canada customers, REEcornerTM modules for dedicated EV chassis in U.S. and Canada, U.S. automobile dealers view market as weak, U.S. government, U.S. federal government, Seven U.S. EV nameplates, ≈70% of total U.S. EV sales, U.S. EV penetration calculations, U.S. EV penetration, U.S. light-duty electric vehicle sales, U.S. light-duty EV sales, U.S. EV sales share of new vehicle sales, U.S. public EV chargers, U.S. electric vehicle sales blog post (Jan 26, 2024), U.S. oil production, Average U.S. electricity price, 1,250 megawatts of renewable energy to the U.S. grid, $312 billion in U.S. EV investments over past four years, U.S. automotive landscape, U.S. solar capacity installed, Solar share of total U.S. electrical generation (2023), U.S. states with cumulative solar >=1 GW, New U.S. solar module manufacturing capacity 2024, Solar soft costs (U.S.), U.S. defense firms and executives, U.S. Customs and Border Protection, 10,329 U.S. adults, Half of U.S. adults, 9% of U.S. adults, U.S. will build necessary EV infrastructure, Some U.S. states, U.S. Energy Information Administration, U.S. economy sentiment index Q2 2024, Franchised dealers' U.S. economy sentiment index, Independent dealers' U.S. economy sentiment index, 1,026 U.S. auto dealers, yen carry‑trade unwind and higher U.S. rate expectations, U.S. 10‑year yields, U.S. administration, major U.S. trade partners (Mexico, Europe, Canada, Vietnam), Senior Investment Strategy Director at U.S. Bank Asset Management, U.S. Bank Asset Management, U.S. Bank, increased U.S. oil drilling, U.S. economy, oil prices and U.S. economic health, ~70% of U.S. GDP, 50% of U.S. vehicles by 2040, U.S. gasoline and diesel use by 50%, U.S. oil consumption, U.S. electricity grid, U.S. economic resilience to oil price shocks, U.S. net exporter status (oil products), EV sales in US Q1 2024, EV sales Q1 2024, Average transaction price Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024, 2023, Q1 2023 (quarter ended March 31, 2023), 63 units in Q1 2023, 31 units to dealers in Q1 2023, 33 units in Q1 2023, 3, 300,000 in Q1 2023 to 375,000 in Q3 2023",
+      "context_triples_count": 150,
+      "time_taken": 1.2940731048583984,
+      "prompt_tokens": 5355,
+      "completion_tokens": 161
+    }
+  },
+  {
+    "id": 4,
+    "question": "What model did Chevrolet temporarily halt production of in Q1 2024, and when is the new version expected to launch?",
+    "flat_rag": {
+      "answer": "Based on the documents, I cannot answer this query.",
+      "sources": [
+        "doc_12.txt",
+        "doc_20.txt",
+        "doc_28.txt",
+        "doc_37.txt",
+        "doc_69.txt"
+      ],
+      "time_taken": 0.7640078067779541,
+      "prompt_tokens": 1793,
+      "completion_tokens": 134
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Chevrolet Bolt EV, Chevrolet Bolt, Chevrolet Silverado EV, EV sales in US Q1 2024, EV sales Q1 2024, Tesla US sales Q1 2024, Tesla market share Q1 2024, Average transaction price Q1 2024, Tesla average transaction price Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024",
+      "context_triples_count": 150,
+      "time_taken": 1.6873371601104736,
+      "prompt_tokens": 5407,
+      "completion_tokens": 235
+    }
+  },
+  {
+    "id": 5,
+    "question": "Which company has ZEEKR reported financial results for in the documents, and what quarter was it?",
+    "flat_rag": {
+      "answer": "ZEEKR Intelligent Technology Holding Limited reported its own unaudited financial results for the **first quarter of 2024 (Q1 2024)**.",
+      "sources": [
+        "doc_14.txt"
+      ],
+      "time_taken": 0.7902300357818604,
+      "prompt_tokens": 2690,
+      "completion_tokens": 138
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "ZEEKR Intelligent Technology Holding Limited, ZEEKR, Chief Executive Officer of ZEEKR, Chief Financial Officer of ZEEKR, ZEEKR deliveries, ZEEKR 001 2024 in February 2024, ZEEKR 001 2024, ZEEKR 009 Grand in April 2024, ZEEKR 009 Grand, deluxe four‑seat version of ZEEKR 009, ir@zeekrlife.com, Globalcomms@zeekrlife.com, ZEEKR product portfolio, ZEEKR 001, ZEEKR 001 FR, ZEEKR 009, ZEEKR 009 Grand, ZEEKR X, Zeekr, China's EV sector to test offshore markets after Zeekr's strong US IPO",
+      "context_triples_count": 150,
+      "time_taken": 1.1883058547973633,
+      "prompt_tokens": 6323,
+      "completion_tokens": 118
+    }
+  },
+  {
+    "id": 6,
+    "question": "What are the top metropolitan areas with the highest electric vehicle uptake in 2020, and what policy incentives did they use?",
+    "flat_rag": {
+      "answer": "Based on the documents, I cannot answer this query.",
+      "sources": [
+        "doc_1.txt",
+        "doc_30.txt",
+        "doc_48.txt",
+        "doc_69.txt"
+      ],
+      "time_taken": 1.4605669975280762,
+      "prompt_tokens": 1858,
+      "completion_tokens": 271
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "U.S. investments from 2016 to 2020, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, second-most prevalent U.S. electricity source in 2020, illustrative emissions estimates for model year 2020, NIO (early 2020), Electric vehicle trends report (2020), 45% decline in passenger car sales Q1 2020, 56% decline in EV sales Q1 2020, 75% production rate by March 2020, 31% decline in EV sales in April 2020 (vs 76% decline for ICE cars), 29% (2020‑2030), CO2 emission targets with fines $0.5B (2020) and $3.7B (2021), all countries except China (2018‑2020), USD 100 billion in 2020, 45% (down from >60% in 2020), 17 in Q2 2020, 2, 56% EV market share in Norway (2020), greenhouse gas emissions by 40% by end of 2020, cost/price premium (except China +2pp) from 2018‑2020, 33 in 2020, 22 in 2021, 30 in 2022, 33 in 2023, 76.3% YoY in April 2020, 31% YoY in April 2020, 86% employee return by March 2020, 56% YoY in Q1 2020, April 2020, Global EV sales 2020, China EV sales growth 2021 vs 2020, 9.6 times larger than 2020, Average BEV/PHEV battery pack capacity 2015-2020, 21.8 times greater than 2020, 11.9-fold vs 2020, 15.3-fold vs 2020, 63.5-fold vs 2020, Crude oil price (January 2020), 26.9% global share for Chinese entities in 2020, 2020, 38% of US EV sales in 2020, EV share 2020, iX3 battery EV via joint venture with Brilliance (2020), 26.9% of global share in 2020, Electric vehicle market report (2020), 77% of US electric auto sales in November 2020, 2.5% in 2020, 40% by 2020, 55% by 2030, 95% by 2050",
+      "context_triples_count": 119,
+      "time_taken": 1.2837591171264648,
+      "prompt_tokens": 4201,
+      "completion_tokens": 156
+    }
+  },
+  {
+    "id": 7,
+    "question": "Who are the authors of the study on electric vehicle market growth across U.S. cities published on September 14, 2021?",
+    "flat_rag": {
+      "answer": "The study was authored by **Anh Bui, Peter Slowik, and Nic Lutsey**.",
+      "sources": [
+        "doc_1.txt",
+        "doc_2.txt",
+        "doc_36.txt",
+        "doc_5.txt"
+      ],
+      "time_taken": 0.9770400524139404,
+      "prompt_tokens": 2002,
+      "completion_tokens": 130
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Electric vehicle market, U.S., 2021, 1, 2",
+      "context_triples_count": 56,
+      "time_taken": 0.7667670249938965,
+      "prompt_tokens": 1932,
+      "completion_tokens": 113
+    }
+  },
+  {
+    "id": 8,
+    "question": "What did Stephanie Valdez Streaty comment about Tesla's Q1 2024 sales performance?",
+    "flat_rag": {
+      "answer": "Stephanie Valdez Streaty said that U.S. electric‑vehicle sales fell in the first quarter of 2024 – the first quarter‑over‑quarter decline since Q2 2020 – and that “Tesla’s sales took a hit, influencing the overall market dynamics.”",
+      "sources": [
+        "doc_2.txt",
+        "doc_23.txt",
+        "doc_30.txt",
+        "doc_61.txt"
+      ],
+      "time_taken": 2.0472707748413086,
+      "prompt_tokens": 1933,
+      "completion_tokens": 386
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Stephanie Valdez Streaty, Tesla US sales Q1 2024, Tesla market share Q1 2024, Tesla market share Q1 2023, Tesla average transaction price Q1 2024, second highest behind Tesla, Tesla, Model 3 Tesla price in China, Tesla Model 3 (≈50% of US EV sales), Tesla, Nikola, NIO, Workhorse, Hyliion, QuantumScape, Tesla Model 3, Tesla Model Y price, Tesla Model Y price Jan 2023, Tesla Model Y price end 2023, Tesla Model Y, Tesla Superchargers, Tesla charging infrastructure total, Tesla charging infrastructure, Tesla Model X, Average Tesla owner 2022, Tesla owner income, Tesla as top BEV producer by end of 2024, Tesla_Roadster_2008, over_50_percent_Tesla_deliveries_2022, CEO of Tesla, Tesla Semi, Tesla Inc, Tesla Model 3 in China, EV sales in US Q1 2024, EV sales Q1 2024, Average transaction price Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024, F",
+      "context_triples_count": 150,
+      "time_taken": 0.9674530029296875,
+      "prompt_tokens": 5137,
+      "completion_tokens": 97
+    }
+  },
+  {
+    "id": 9,
+    "question": "Explain the relation between the Inflation Reduction Act (IRA), U.S., and the European Union based on the documents.",
+    "flat_rag": {
+      "answer": "Based on the documents, I cannot answer this query.",
+      "sources": [
+        "doc_50.txt"
+      ],
+      "time_taken": 0.6059780120849609,
+      "prompt_tokens": 2916,
+      "completion_tokens": 93
+    },
+    "graph_rag": {
+      "answer": "We need to answer: \"Explain the relation between the Inflation Reduction Act (IRA), U.S., and the European Union based on the documents.\"\n\nWe must use knowledge graph triples. Find relevant triples:\n\n- (EU-US relations) -[AFFECTED_BY]-> (Inflation Reduction Act) [doc_50]\n- (Inflation Reduction Act) -[IMPACTS]-> (EU-US relations) [doc_50]\n- (European Parliament) -[AUTHOR_OF]-> (EU-US relations after the Inflation Reduction Act, and the challenges ahead) [doc_50]\n- (EU) -[IMPOSED_TRADE_TARIFFS_ON]-> (Chinese EV exports) [doc_56] (maybe related)\n- (EU) -[IMPOSED]-> (up to 38% tariff on Chinese EVs) [doc_43, doc_66]\n- (US Inflation Reduction Act) -[ATTRACTED]-> (Chinese battery firms to US) [doc_65] (maybe EU context)\n- (Inflation Reduction Act) -[INCLUDES_TAX_CREDITS_FOR]-> (new and used electric passenger vehicles and commercial EVs) [doc_48]\n- (Inflation Reduction Act) -[INCENTIVE_AMOUNT]-> ($7,500) [doc_2]\n- (Inflation Reduction Act) -[EXPECTED_TO_IMPACT]-> (EV demand) [doc_37]\n- (Inflation Reduction Act) -[EXPECTED_TO_IMPACT]-> (EV margins) [doc_37]\n- (Inflation Reduction Act) -[ACCELERATED]-> (U.S. electric vehicle and battery manufacturing market) [doc_6]\n- (Inflation Reduction Act) -[PROVIDES_BENEFITS_THAT_AFFECT]-> (U.S. EV penetration calculations) [doc_32]\n- (Inflation Reduction Act) -[PROVIDES_MAXIMUM_TAX_CREDIT_OF]-> ($7,500 for EV battery production) [doc_25]\n- (Inflation Reduction Act (IRA)) -[PROVIDES_EV_CREDIT]-> ($7,500 per vehicle) [doc_26]\n- (Inflation Reduction Act (IRA)) -[PROVIDES_BENEFITS_THAT_AFFECT]-> (U.S. EV penetration calculations) [doc_32] (duplicate)\n- (Inflation Reduction Act impact) -[DEPLOYMENT_INCREASE_VS_PRE_IRA]-> (46%) [doc_41]\n- (Environmental Defense Fund) -[RELEASED_REPORT]-> (U.S. Electric Vehicle Manufacturing Investments and Jobs: Characterizing the Impacts of the Inflation Reduction Act after 18 Months) [doc_6]\n- (European Parliament) -[AUTHOR_OF]-> (EU-US relations after the Inflation Reduction Act, and the challenges ahead) [doc_50]\n- (EU-US relations) -[AFFECTED_BY]-> (Inflation Reduction Act) [doc_50]\n- (EU-US relations) -[AFFECTED_BY]-> (Inflation Reduction Act) (same)\n- (EU) -[REGISTERED]-> (31% decline in EV sales in April 2020 (vs 76% decline for ICE cars)) [doc_9] (maybe not needed)\n- (EU) -[IMPOSED_TRADE_TARIFFS_ON]-> (Chinese EV exports) [doc_56] (maybe context of IRA causing tensions)\n- (US Inflation Reduction Act) -[ATTRACTED]-> (Chinese battery firms to US) [doc_65] (implies EU concerns about subsidies)\n\nThus relation: IRA is a US policy that provides incentives for EVs and battery manufacturing, accelerating US EV market, but it also impacts EU-US relations, possibly causing trade tensions, as EU sees it as subsidy that may affect competition, leading to EU measures like tariffs on Chinese EVs,",
+      "entity": "U.S. Electric Vehicle Manufacturing Investments and Jobs: Characterizing the Impacts of the Inflation Reduction Act after 18 Months, Inflation Reduction Act, Inflation Reduction Act (IRA), Inflation Reduction Act of 2022, Inflation Reduction Act impact, EU-US relations after the Inflation Reduction Act, and the challenges ahead, inflation, Inflation, F, US Inflation Reduction Act, U.S. Energy Information Administration (EIA), U.S. Consumption of Electricity by Light-Duty Electric Vehicle Types, estimated U.S. consumption of electricity by light-duty electric vehicle types, U.S. BEV volume, U.S. EV adoption, U.S. EV market, around 70% of U.S. EV sales, ~8% U.S. EV sales penetration, U.S. electric vehicle and battery manufacturing market, U.S. manufacturing facilities, Recent EV manufacturing investments in the U.S. are outpacing every other region, Private investments in the U.S. since 2021, U.S. investments from 2016 to 2020, approximately 30% of total U.S. energy needs, approximately 70% of U.S. petroleum consumption, U.S. economy and diversify transportation fleet, second-most prevalent U.S. electricity source in 2020, U.S.-China Economic and Security Review Commission, U.S. stock exchanges, U.S. EV models 2022, Ford (U.S.), U.S. policy recommendation, Lucid (U.S. electric vehicle maker), U.S., June 11 2024 at 8:00 AM U.S. Eastern Time, U.S. and Canada customers, REEcornerTM modules for dedicated EV chassis in U.S. and Canada, U.S. automobile dealers view market as weak, U.S. government, U.S. federal government, Seven U.S. EV nameplates, ≈70% of total U.S. EV sales, U.S. EV penetration calculations, U.S. EV penetration, U.S. light-duty electric vehicle sales, U.S. light-duty EV sales, U.S. EV sales share of new vehicle sales, U.S. public EV chargers, U.S. electric vehicle sales blog post (Jan 26, 2024), U.S. oil production, Average U.S. electricity price, 1,250 megawatts of renewable energy to the U.S. grid, $312 billion in U.S. EV investments over past four years, U.S. automotive landscape, U.S. solar capacity installed, Solar share of total U.S. electrical generation (2023), U.S. states with cumulative solar >=1 GW, New U.S. solar module manufacturing capacity 2024, Solar soft costs (U.S.), U.S. defense firms and executives, U.S. Customs and Border Protection, 10,329 U.S. adults, Half of U.S. adults, 9% of U.S. adults, U.S. will build necessary EV infrastructure, Some U.S. states, U.S. Energy Information Administration, U.S. economy sentiment index Q2 2024, Franchised dealers' U.S. economy sentiment index, Independent dealers' U.S. economy sentiment index, 1,026 U.S. auto dealers, yen carry‑trade unwind and higher U.S. rate expectations, U.S. 10‑year yields, U.S. administration, major U.S. trade partners (Mexico, Europe, Canada, Vietnam), Senior Investment Strategy Director at U.S. Bank Asset Management, U.S. Bank Asset Management, U.S. Bank, increased U.S. oil drilling, U.S. economy, oil prices and U.S. economic health, ~70% of U.S. GDP, 50% of U.S. vehicles by 2040, U.S. gasoline and diesel use by 50%, U.S. oil consumption, U.S. electricity grid, U.S. economic resilience to oil price shocks, U.S. net exporter status (oil products), United States, China, Mexico, Indonesia, European Union, NIO, Europe, EU, European Union, Nio, 47-year alliance with the European Union",
+      "context_triples_count": 150,
+      "time_taken": 4.713361740112305,
+      "prompt_tokens": 5189,
+      "completion_tokens": 800
+    }
+  },
+  {
+    "id": 10,
+    "question": "What is the average transaction price of a new EV in Q1 2024, and how did it change from the previous year?",
+    "flat_rag": {
+      "answer": "The average transaction price for a new electric vehicle in **Q1 2024 was about $52,315**.  \nCompared with the same quarter a year earlier, this represents a **decline of roughly 13.5 %** in the average price.",
+      "sources": [
+        "doc_2.txt",
+        "doc_30.txt"
+      ],
+      "time_taken": 1.3360340595245361,
+      "prompt_tokens": 1782,
+      "completion_tokens": 242
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "2024",
+      "context_triples_count": 1,
+      "time_taken": 0.5168449878692627,
+      "prompt_tokens": 190,
+      "completion_tokens": 85
+    }
+  },
+  {
+    "id": 11,
+    "question": "Which brand achieved the second-highest EV sales volume behind Tesla in Q1 2024, and what was its growth rate?",
+    "flat_rag": {
+      "answer": "The brand with the second‑highest EV sales volume behind Tesla in Q1 2024 was **Ford**, which posted an **86.1 % year‑over‑year growth** in its EV sales.",
+      "sources": [
+        "doc_2.txt",
+        "doc_30.txt"
+      ],
+      "time_taken": 0.8525559902191162,
+      "prompt_tokens": 1825,
+      "completion_tokens": 151
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Tesla US sales Q1 2024, Tesla market share Q1 2024, Tesla market share Q1 2023, Tesla average transaction price Q1 2024, second highest behind Tesla, Tesla, Model 3 Tesla price in China, Tesla Model 3 (≈50% of US EV sales), Tesla, Nikola, NIO, Workhorse, Hyliion, QuantumScape, Tesla Model 3, Tesla Model Y price, Tesla Model Y price Jan 2023, Tesla Model Y price end 2023, Tesla Model Y, Tesla Superchargers, Tesla charging infrastructure total, Tesla charging infrastructure, Tesla Model X, Average Tesla owner 2022, Tesla owner income, Tesla as top BEV producer by end of 2024, Tesla_Roadster_2008, over_50_percent_Tesla_deliveries_2022, CEO of Tesla, Tesla Semi, Tesla Inc, Tesla Model 3 in China, EV sales in US Q1 2024, EV sales Q1 2024, Average transaction price Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024",
+      "context_triples_count": 150,
+      "time_taken": 1.8329651355743408,
+      "prompt_tokens": 5143,
+      "completion_tokens": 326
+    }
+  },
+  {
+    "id": 12,
+    "question": "Who founded OpenAI and in which year was it founded?",
+    "flat_rag": {
+      "answer": "Based on the documents, I cannot answer this query.",
+      "sources": [
+        "doc_11.txt",
+        "doc_43.txt",
+        "doc_64.txt",
+        "doc_65.txt",
+        "doc_7.txt"
+      ],
+      "time_taken": 0.5328269004821777,
+      "prompt_tokens": 1677,
+      "completion_tokens": 79
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": null,
+      "context_triples_count": 1,
+      "time_taken": 0.5167989730834961,
+      "prompt_tokens": 159,
+      "completion_tokens": 84
+    }
+  },
+  {
+    "id": 13,
+    "question": "What was the year-over-year EV sales volume growth in Q1 2023 and Q1 2022?",
+    "flat_rag": {
+      "answer": "The year‑over‑year EV sales volume growth was:\n\n- **Q1 2023:** +46.4% compared with Q1 2022  \n- **Q1 2022:** +81.2% compared with Q1 2021  \n\n(These figures are taken from the Kelley Blue Book data cited in the Cox Automotive report.)",
+      "sources": [
+        "doc_2.txt",
+        "doc_30.txt"
+      ],
+      "time_taken": 1.2313179969787598,
+      "prompt_tokens": 1830,
+      "completion_tokens": 223
+    },
+    "graph_rag": {
+      "answer": "We need to answer: \"What was the year-over-year EV sales volume growth in Q1 2023 and Q1 2022?\" Look for triples that give YoY growth for those quarters. Search knowledge graph.\n\nWe have:\n\n- (U.S. light-duty EV sales) -[INCREASED_FROM]-> (300,000 in Q1 2023 to 375,000 in Q3 2023) – not Q1 2023 YoY.\n\n- (Total EV sales (Q2 2024 vs Q2 2023)) -[GREW_BY]-> (21%) – Q2.\n\n- (Chevy Bolt sales Q1 2024) -[YEAR-OVER-YEAR_CHANGE]-> (-64.3%) – Q1 2024.\n\n- (bear case for EV sales) -[PREDICTS]-> (EV sales volume decline 2% YoY in 2024) – forecast.\n\n- (base case for EV sales) -[PREDICTS]-> (EV sales volume increase 21% YoY in 2024) – forecast.\n\n- (U.S. EV sales share of new vehicle sales) -[ROSE_FROM]-> (3% in Q1 2021 to >10% in Q3 2023) – not growth.\n\n- (EV share 2024 projection) -[IS]-> (18% of total car market) – not.\n\n- (EV share 2020) -[WAS]-> (4% of total car market).\n\n- (global BEV volume) -[FORECAST_TO_GROW_BY]-> (12% in 2024) – forecast.\n\n- (global BEV volume) -[FORECAST_TO_GROW_BY]-> (12% in 2024) duplicate.\n\n- (China BEV volume) -[FORECAST_TO_CHANGE_BY]-> (+6% in 2024).\n\n- (China BEV growth) -[PERCENTAGE_INCREASE]-> (+17% in 2019).\n\n- (Chinese EV market) -[SUPPORTED_BY]-> (license_plate_waivers_for_EV_owners) – not.\n\n- (Chinese EV market) -[DRIVEN_BY]-> (young_car_buyers).\n\n- (Chinese EV sales) -[DECLINED_BY]-> (56% YoY in Q1 2020).\n\n- (Chinese EV sales) -[SHOWED_YOY_GROWTH_IN]-> (April 2020).\n\n- (PHEV sales in China (Q2 2024)) -[INCREASED_BY]-> (98%).\n\n- (Survey respondents considering EV) -[BELIEVE_CURRENT_CHARGER_AVAILABILITY_IS_INSUFFICIENT]-> (over 80%).\n\n- (U.S. EV market) -[CHARACTERIZED_AS]-> (\"air pocket\").\n\n- (U.S. EV market) -[WAS_CARRIED_BY]-> (Tesla Model 3 (≈50% of US EV sales)).\n\n- (U.S. EV market) -[WAS_CARRIED_BY] etc.\n\n- (U.S. EV market) -[CHARACTERIZED_AS] etc.\n\n- (U.S. EV market) -[WAS_CARRIED_BY] etc.\n\n- (U.S. EV market) -[WAS_CARRIED_BY] etc.\n\n- (U.S. EV market) -[WAS_CARRIED_BY] etc.\n\n- (U.S. EV market) -[WAS_CARRIED_BY] etc.\n\nWe need YoY EV sales volume growth for Q1 2023 and Q1 2022. I don't see any triple directly giving that. Possibly there is a triple about \"U.S. light-duty EV sales increased from 300,000 in Q1 2023 to 375,000 in Q3 2023\" but that's not YoY.\n\nMaybe",
+      "entity": "Citi Research EV market report, global BEV volume, Europe BEV volume, China BEV volume, U.S. BEV volume, global EV penetration, global EV adoption, U.S. EV adoption, Europe EV adoption, China EV adoption, China BEV sales, China PHEV demand, expensive branded BEVs in Europe, less loss‑making than cheaper BEVs, U.S. EV market, seven EV nameplates, around 70% of U.S. EV sales, ~8% U.S. EV sales penetration, EV profitability, Citi EV penetration matrix, 2024 EV sales forecast, 2025 EV sales forecast, PHEVs and EREVs, investment in future EV market share, next round of EV growth, Recent EV manufacturing investments in the U.S. are outpacing every other region, every other region of the world, Section 501(c)(3) of the Internal Revenue Code, Electric vehicles (EVs), All-electric vehicles (BEVs), Plug-in hybrid electric vehicles (PHEVs), Hybrid electric vehicles (HEVs), Purchase price of EVs, initial EV costs, lifetime ownership costs of EVs and conventional vehicles, All-electric vehicles and PHEVs, EV charging station (EVSE), PHEVs and BEVs, Regenerative braking in HEVs, EVs, PHEVs, EV sales in US Q1 2024, EV sales Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Cadillac EV model, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, 2024 best year ever for EV sales, EV sales data, Generating electricity for EVs, second-most prevalent U.S. electricity source in 2020, $7.5 billion to national EV charger network, Current EV models, All new EV models, EV battery failure rate, EV battery failure rate since 2016, EV GHG emissions lower than gasoline car over vehicle lifetime, future of EV batteries, Level 1 charging, Level 2 charging, DOE EV Pro Lite Tool, growth of EV chargers over time, EV range by about 40%, EV battery recycling, EV battery warranty, EV battery packs, upgrades to transmission and distribution infrastructure due to EV demand, U.S.-China Economic and Security Review Commission, Chinese EV producers, Chinese EV exports, Chinese EVs, U.S. EV models 2022, Chinese EV companies, Chinese EV manufacturers, EV purchases (phased_out 2023, sales tax waivers until 2025), Chinese EV industry, Chinese EV firms, domestic EV industry, EVO Report 2024, global EV market, record EV sales, very high electrification levels, EVs of all types, Battery demand for EVs, EV battery demand, 722 million passenger EVs on road in 2040, 380 million passenger EVs in 2040, CUDA everywhere (cloud, on‑prem, RTX AI PCs), 2 million combined BEV and PHEV sales in 2019, BEVs, 74% of global EV sales in 2019, United States EV market, Tesla Model 3 (≈50% of US EV sales), 93% BEV growth in 2019, 56% EV market share in 2019, 50% of global EV sales, 56% decline in EV sales Q1 2020, $2.8 billion to EV charging infrastructure (COVID‑19 recovery plan), up to $8,000 incentive for EV purchases, 31% decline in EV sales in April 2020 (vs 76% decline for ICE cars), Global EV forecast, Global EV sales, major opportunities from EV growth, major challenges from EV transition, EV adoption, Number of EV models in EU, Number of EV models in US, 56% of respondents considering an EV in next 3 years, UK EV market share, New entrants in EV market, EV price parity, Corporate EV adoption, best-selling brand in BEV segment priced over RMB200,000 in China, Vehicle sales revenue, Total revenues, strong in‑house research and development, 21,912 EVs, 300,000 EVs per year, 50,000 EVs per year, EV companies, Pure play EV makers, majority of pure play EV market cap growth, previously best‑selling brand, now below BYD, SAE Level 3 for freeways in Nevada and California, EV charging station, electric vehicle supply equipment (EVSE), Global EV Outlook 2024, NEVs (China), BEVs, PHEVs, fuel‑cell electric vehicles, almost entire EV battery market in 2023, 35% from previous year, USD 275 billion in EVs, 55% BEV sales by 2030 in United States, 80% BEV sales by 2030 in Europe, 300,000 BEV sales in 2025, 1 million BEV sales in 2031, 20% EV sales by 2026, 100% BEV sales from 2030, 80% BEV sales share in 2030, 15% BEV sales share in 2030, 20% BEV sales share in 2030, 50% BEV sales in 2030, 2 million EVs annually by 2030, electric vehicle (EV) platforms, flattest EV platform, REEcornerTM modules for dedicated EV chassis in U.S. and Canada, braking system for REEcornerTM and EV platforms, FlatFormer EV platform, modular EVs under ‘Powered by REE’ brand, China's EV sector, China's EV sector to test offshore markets after Zeekr's strong US IPO, EV sales index, EV future expectations index, EV tax credit impact index, EV industry, 86% believe government should set US energy strategy, EV companies to go public with less paperwork, EV companies to raise capital, public markets to prevent bubble burst, $7,500 for EV battery production, dealings with Chinese suppliers and EV manufacturers, Rmb150 billion (US$22 billion) to EV sector over last decade, US sourcing requirements for EV components, electric vehicle (EV) market, EV sales sentiment index, Future EV sales index, EV tax credit index, standards and frameworks for EV charging industry, charging projects before financial break-even point, curbside Level 2 charging, NEVI Formula Program, Electric Vehicle Working Group (EVWG), EVWG meetings, workforce development, Workforce development, EVSE maintenance technicians, software developers for grid interactions, EVSE technicians, industry news, insights, resources, webinar updates, and event information, EV sector, EV stock valuations, BEV battery price, PHEV battery price, IRA revision, Pure EV companies, EV performance in 2023, EV demand, 1.3 billion EVs by 2040, Current EV fleet, EV prices, reducing EV costs, EV sector sentiment, after Trump’s EV statements, Potential withdrawal of EV support, common connector standards for EV charging, open-source software solutions for EV charging, funding opportunities for EV charging infrastructure, private sector companies to bid on National Electric Vehicle Infrastructure (NEVI) Formula Program, grant funding for EV charging projects, Curbside Level 2 charging, NEVI state plans, Battery electric vehicles (BEV), Plug-in hybrid electric vehicles (PHEV), 26% of global EV sales in 2019, Global EV market share, 56% EV market share in Norway (2020), $2.8 billion to EV charging infrastructure in COVID-19 recovery plan, nearly half of US EV sales in 2019, Deloitte live webcast series on EV trends, major opportunities and challenges from EV growth, several European markets, New EV models in Europe, BEV models in EU, EV models in United States, EV registrations in Western Europe, Chinese EV factories, Chinese EV sales, US EV market, Q4 2023 US EV sales, Average EV price dec 2023, Average EV price Jan 2024, top-selling EV in US 2023, Chevrolet Bolt EV, Rivian total EV deliveries 2023, Level 2 chargers US, EVgo, US EV market share projection 2030, Projected US EV fleet 2030, EV market outlook report (Apr 2024), Citi Research EV market outlook report, Global BEV volume, Global EV penetration, Annual EV penetration gains, Global EV adoption, Expensive branded BEVs in Europe, Seven U.S. EV nameplates, ≈70% of total U.S. EV sales, U.S. EV penetration calculations, U.S. EV penetration, EV price differentials, investment in future EV share, EREVs, Electric Vehicle (EV) market, EV market growth, 5 EV battery trends for 2022, Global EV sales 2021, Global EV sales 2020, China EV sales 2021, China EV sales growth 2021 vs 2020, Germany EV market share 2021, BEV and PHEV car sales 2031, Average BEV/PHEV battery pack capacity 2015-2020, kWh demand from BEV & PHEV cars 2031, Silicon demand for EV batteries, consumer incentives for EVs, government schemes and incentives for EVs, CO2 targets and consumer subsidies for EVs, Electric vehicle (EV) sentiment, Government-backed EV incentives, $2.4 billion in subsidies to boost EV battery production, 400,000 EVs by mid-2024, Honda affordable EV line, 29.2% very likely to consider EV, inflation-adjusted average EV price is rising, Average EV price 2022, Federal EV subsidy, State EV incentives, EV adoption share 2023, Projected EV adoption share 2025, Projected EV model coverage 2026, EV technology, US EV sales, EV affordability issue, EV ownership, lack of large SUV EV models, EV market sentiment, EV price trend, EV margins, elevated interest rates, U.S. light-duty EV sales, U.S. EV sales share of new vehicle sales, Nevada, $7,500 for new EVs, U.S. public EV chargers, EV major market monitor biannual briefing, Anti EV sentiment, EV adoption curve in the United States, current EV tax incentives, world's leading EV manufacturer, $27 billion in EVs, South Carolina plant for EX90 EV SUV, refitting Ohio complex for EV production, $312 billion in U.S. EV investments over past four years, $200 annual EV road use tax, Tim Stevens, Tim Stevens' opinion article, International EV markets (Europe, Asia), global EV markets if domestic EV adoption stalls, bear case for EV sales, EV sales volume decline 2% YoY in 2024, base case for EV sales, EV sales volume increase 21% YoY in 2024, EV sales, used EV car prices in UK, EV capital costs, lower used EV prices, EV industry policies, EV penetration, HEVs, HEV sales in US, EV sales growth, global HEV sales, first HEVs, EV supply chain and lithium iron phosphate batteries, Chinese EV imports, Chinese EV makers, Chinese EVs since 2023, upfront investment in core EV technologies, Core EV technologies, HEV lineups, Global EV passenger spending 2022, EV adoption in US, EV adoption in Singapore, EV adoption in UK, EV adoption in Germany, EV (17%), EV (22%), UK EV consideration for next purchase, EV (39%), Gen-Z share of EV next preference Singapore, Gen-Z share of EV next preference UK, Gen-Z share of EV next preference US, Boomer share of EV next preference Germany, Motivators for US EV owners, Motivators for Singapore EV owners, record levels of corporate investment, higher than other developed markets, nearly two-thirds of global EVs, more than three-quarters of global EV batteries, 37% of global EV battery market, 16% of global EV battery market, Chinese EV battery manufacturers, 35% share of Chinese NEV retail sales in 2023, Tesla as top BEV producer by end of 2024, 9.6% share of global PHEV market in 2023, leading Chinese EV manufacturer, over $230 billion in EV subsidies from 2009 to 2023, local content requirements for EVs, public R&D for EVs, 100% tariff on Chinese EVs, up to 38% tariff on Chinese EVs, 19.9% share of global BEV market in 2023, 5.2% share of global BEV market in 2023, 4.9% share of global BEV market in 2023, 4.6% share of global BEV market in 2023, 17% share of global BEV market in 2023, 10 million EV units in 2024 (estimate), 6.11 million BEVs in 2023, 2.8 million PHEVs in 2023, 62% of global EV production in 2022, 59% of global EV sales in 2022, 77% of global EV battery manufacturing capacity in 2022, German EV exporters, 28.5% of global EV export value in 2022, 18.6% of global EV export value in 2022, 242,765 NEVs in 2023, fleet of eight car carriers for global EV expansion, 40% of China's total EV exports in 2022, $34.1 billion worth of BEVs in 2023, 35% of global EV exports by value in 2022, EVs to represent over 70% of annual vehicle sales by 2030, over $245 billion for EV development and adoption (2021‑2022), MIT Technology Review, CATL for reviving LFP batteries to 40% market share, night shifts to build vessels for Chinese EV export, shipping capacity constraint limiting EV export growth, CATL will hold 35% of European EV battery market by 2030, potential extinction‑level event from Chinese EV market penetration, 30% faster at developing new car models than legacy OEMs, US-China Economic and Security Review Commission, purchasing an EV, 68% of current hybrid/EV owners, EV for next purchase, 72% of potential EV buyers, 70% of potential EV buyers, 12% of potential EV buyers, greater EV adoption, $5 billion for EV charging network (September 2022), U.S. will build necessary EV infrastructure, Amex GBT travel revenue, Amex GBT product and professional services revenue, Sabre distribution revenue, decline in EV travel interest, travel revenue, product and professional services revenue, EV sales sentiment index Q2 2024, EV future expectations index Q2 2024, EV tax credits impact index Q2 2024, US EV charging market tenfold by 2030, US EV charging market, 27 million EVs in the US by 2030, 92 million EVs in the US by 2040, $7.5 billion for EV charging infrastructure, new and used electric passenger vehicles and commercial EVs, approximately 50% of EVSE market value now, 65% of EVSE market value by 2040, CPOs revenue, $21 million Central Hudson EV Make‑Ready program, credit to customers for EV charger installation, 1 in 2 car buyers considered an EV for their last purchase, 5% of car buyers actually purchased an EV, top concern among prospective EV buyers, Level 2 wall box or mobile cable charger with 6‑8 hour home charging, Level 2 wall box, pedestal hardwired, or 240 V outlet with back‑end management, Pedestal hardwired Level 2 (up to 9.6 kW) for employee use, Pedestal hardwired Level 2 (9.6 kW or faster) with robust back‑end management, Pedestal hardwired Level 2 (9.6 kW or faster) with integrated payments, Pedestal hardwired Level 2 or Level 3 (up to 50 kW) with app access, Pedestal hardwired Level 3 or Level 4 (150 kW or faster) with tidy cable management, EV adoption trajectory, EVSE market maturity, Hardware developers, Private companies in EV supply chain, other developed markets, Inflation in many developed economies, developed market equities due to China challenges, electric vehicles (EVs), Chinese EV vehicles, Western EV vehicles, China EV market, EVs in Southeast Asia, Southeast Asia EV market, Chinese EV market, export routes for Chinese EV makers, opportunities in renewable energy and EVs for investors, 50%–52% reduction in US GHG emissions by 2030 against 2005 levels, 73 million EVs on US roads by 2035, 40 million EVs by 2030, 10% of new car sales to be EVs in 2021, 15% of new car sales to be EVs in 2025, 35% of new car sales to be EVs in 2030, 75% of all European EV charging stations, 38% of US EV sales in 2020, European fleet EVs, European fleet EVs today, US fleet EVs, US$2 trillion for EV market boost, nine utilities assessing freight truck charging every 50 miles, EV charging network covering 1,200 miles from Detroit to Colorado by end of 2022, Chinese EV, elevated, rates at higher levels for longer, target levels in most developed economies, Reverence Capital Partners funds, EVs' competitive landscape, 50% EV fleet, large net oil exporter if EV share reaches 50%, EV owners (home charging), Residential EV charging cost, EV transition, Daytime charging of EVs, \"Stuck in the Seventies: Gas Prices and Consumer Sentiment\", EV owners (public charging), forecasts_too_low_for_EV_growth, LFP_batteries_make_up_one_third_of_EV_batteries_Sept_2022, Chinese_EV_supply_chain, catfish_effect_on_Chinese_EV_brands, Chinese_EV_brands, over_50_percent_Chinese_consider_BEV_next_car, future_high_EV_demand_region, Chinese_investment_for_EV_factories, Chinese_EV_market, license_plate_waivers_for_EV_owners, severe_air_pollution, Chevrolet Bolt, GMC Hummer EV, Chevrolet Silverado EV, Tang (PHEV SUV), Han (BEV sedan), e6 (BEV taxi), Seagull (BEV), 50.9% US EV market share (Q4 2023), 8.2% US EV market share, 6.1% US EV market share, 1.6% global EV market share, 2.54% global EV market share, 2.8% global EV market share, 3.76% global EV market share, Global BEV sales, BEV sales 2023, BEV market share 2023, EV sales growth 2024, EV share 2020, EV share 2022, EV share 2024 projection, federal tax credits for EV buyers, New Energy Vehicle (NEV) mandates, in-house electrified propulsion component development, thermal efficiency in BEVs, third_largest_recipient_of_Chinese_EV_exports_2022, temporary_corporate_tax_waivers_for_EV_manufacturers, Chinese EV investments_in_Thailand_2023, EV purchases, lower_global_EV_prices, job_loss_due_to_chinese_EV_competition, diversified_competitive_EV_industry_in_US, over $230 billion in EV sector from 2009 to 2023, over 200 EV manufacturers, 10 million EV units in 2024, 37% of global EV battery market (2023), 16% of global EV battery market (2023), 35% of Chinese NEV sales in 2023, 9.6% of global PHEV market in 2023, a Chinese EV manufacturer, 19.9% of global BEV market (2023), fourth-largest Chinese EV battery maker, 100% tariffs on Chinese EVs, up to 38% tariffs on Chinese EVs, iX3 battery EV via joint venture with Brilliance (2020), 14% of global EV battery market (2023), 6% of global EV battery market (2023), 35% of global EV exports (2022), 242,765 NEVs in 2023 (334% YoY growth), building ships to support Chinese EV exports, $245 billion for EV development and adoption (2021-2022), 30% faster at new model development than legacy US/EU/Japan makers, EV batteries, ~40% of EV value, ~40% of global EV battery market, automakers to shift investment to EVs, EV unit sales growth, EV pricing, NYSE:XPEV, EV unit sales, car companies with strong EV brands, Total EV sales (Q2 2024 vs Q2 2023), PHEV sales in China (Q2 2024), EV sales in top five European markets (Q2 2024 vs Q2 2023), BEV market share in Norway (Q2 2024), EV sales in the United States (Q2 2024 vs Q2 2023), BEV market share in the United States (YTD Q2 2024), PHEV market share in the United States (YTD Q2 2024), Domestic PHEV sales in China (Q2 2024 vs Q2 2023), Total EV market growth in China (Q2 2024 vs Q2 2023), BEV sales in China (Q2 2024 vs Q2 2023), Combined BEV and PHEV market share in China (Q2 2024), BEV market share in China (Q2 2024), PHEV market share in China (Q2 2024), BEV sales in Japan (Q2 2024 vs Q2 2023), Battery electric vehicles (BEVs), Europe BEV growth, China BEV growth, Other regions BEV growth, United States BEV sales, $2.8 billion to EV charging infrastructure in recovery plan, EV drivers and prospective buyers' charging satisfaction, Skeptical EV buyers, Survey respondents considering EV, Current EV owners, Hesitant EV buyers, Prospective EV buyers, EV owners worldwide, Non‑EV owners, EV drivers, Shivika Sahdev, Kevin Laczkowski, Tesla market share Q1 2023, 2023, Q1 2023 (quarter ended March 31, 2023), 63 units in Q1 2023, 31 units to dealers in Q1 2023, 33 units in Q1 2023, 1, 2, 3, 300,000 in Q1 2023 to 375,000 in Q3 2023, 2022",
+      "context_triples_count": 150,
+      "time_taken": 4.687736988067627,
+      "prompt_tokens": 5107,
+      "completion_tokens": 800
+    }
+  },
+  {
+    "id": 14,
+    "question": "List the luxury EV makers that recorded more than 50% year-over-year growth in EV sales in Q1 2024.",
+    "flat_rag": {
+      "answer": "The luxury manufacturers that posted more than 50 % year‑over‑year growth in U.S. EV sales in Q1 2024 were:\n\n- **BMW**  \n- **Cadillac**  \n- **Lexus**  \n- **Mercedes**",
+      "sources": [
+        "doc_2.txt",
+        "doc_30.txt"
+      ],
+      "time_taken": 0.9853651523590088,
+      "prompt_tokens": 1833,
+      "completion_tokens": 176
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "EV sales, 2024, 50%",
+      "context_triples_count": 7,
+      "time_taken": 0.9664859771728516,
+      "prompt_tokens": 358,
+      "completion_tokens": 169
+    }
+  },
+  {
+    "id": 15,
+    "question": "What is the average electric vehicle share of new-vehicle sales in U.S. Q1 2024?",
+    "flat_rag": {
+      "answer": "The electric‑vehicle share of total new‑vehicle sales in the United States for Q1 2024 was **about 7.3 %**.",
+      "sources": [
+        "doc_15.txt",
+        "doc_18.txt",
+        "doc_2.txt",
+        "doc_30.txt",
+        "doc_36.txt"
+      ],
+      "time_taken": 1.0481319427490234,
+      "prompt_tokens": 2133,
+      "completion_tokens": 184
+    },
+    "graph_rag": {
+      "answer": "The electric‑vehicle share of total new‑vehicle sales in the United States for Q1 2024 was **about 7.3 %**【doc_2.txt】.",
+      "entity": "U.S. Consumption of Electricity by Light-Duty Electric Vehicle Types, electricity usage of light-duty electric vehicles, Electric vehicles, estimated U.S. consumption of electricity by light-duty electric vehicle types, Electric Vehicles market outlook (Apr 2024), U.S. Electric Vehicle Manufacturing Investments and Jobs: Characterizing the Impacts of the Inflation Reduction Act after 18 Months, U.S. electric vehicle and battery manufacturing market, Electric vehicles (EVs), All-electric vehicles (BEVs), Plug-in hybrid electric vehicles (PHEVs), Hybrid electric vehicles (HEVs), Life cycle emissions of an electric vehicle, Advanced batteries in electric vehicles, Manufacturers of electric vehicles, All-electric vehicles and PHEVs, Light-duty all-electric vehicles, Hybrid and electric vehicles, electric vehicles, Electric Vehicle Outlook, Lucid (U.S. electric vehicle maker), IM Motors (China electric vehicle maker), Electric vehicle trends report (2020), Electric vehicle market, intelligent battery electric vehicles and technology-driven solutions, pure-play electric vehicle manufacturer, Life cycle emissions of electric vehicles, All-electric vehicles, electric vehicle supply equipment (EVSE), BEVs, PHEVs, fuel‑cell electric vehicles, electric vehicle (EV) platforms, US$7,500 tax credit on electric vehicle purchases, electric vehicle (EV) market, Electric Vehicle Working Group (EVWG), Electric Vehicle Infrastructure Training Program, Bloomberg Electric Vehicles Index, electric vehicle production companies, electric vehicle mandate, subsidies and tax credits for electric vehicle purchases, tax credits and subsidies for electric vehicles, electric vehicle incentives, private sector companies to bid on National Electric Vehicle Infrastructure (NEVI) Formula Program, Battery electric vehicles (BEV), Plug-in hybrid electric vehicles (PHEV), Electric Vehicle (EV) market, Electric vehicle (EV) sentiment, Vice President of Electric Vehicle Practice at J.D. Power, U.S. light-duty electric vehicle sales, U.S. electric vehicle sales blog post (Jan 26, 2024), Electric vehicle driving cost, electric vehicle applications, electric vehicle for next purchase, hybrid or electric vehicle, Electric vehicle usage (past six months), Likelihood to use electric vehicle (next trip), electric vehicle use, Electric vehicle supply chain, electric vehicle batteries, Electric vehicle batteries, electric vehicles (EVs), Electric vehicle growth, hybrid electric vehicles, Electric vehicle companies, Electric vehicle market share in EU top five (Q2 2024), Electric vehicle market report (2020), Battery electric vehicles (BEVs), U.S. Energy Information Administration (EIA), U.S. BEV volume, U.S. EV adoption, U.S. EV market, around 70% of U.S. EV sales, ~8% U.S. EV sales penetration, U.S. manufacturing facilities, Recent EV manufacturing investments in the U.S. are outpacing every other region, Private investments in the U.S. since 2021, U.S. investments from 2016 to 2020, approximately 30% of total U.S. energy needs, approximately 70% of U.S. petroleum consumption, U.S. economy and diversify transportation fleet, second-most prevalent U.S. electricity source in 2020, U.S.-China Economic and Security Review Commission, U.S. stock exchanges, U.S. EV models 2022, Ford (U.S.), U.S. policy recommendation, U.S., June 11 2024 at 8:00 AM U.S. Eastern Time, U.S. and Canada customers, REEcornerTM modules for dedicated EV chassis in U.S. and Canada, U.S. automobile dealers view market as weak, U.S. government, U.S. federal government, Seven U.S. EV nameplates, ≈70% of total U.S. EV sales, U.S. EV penetration calculations, U.S. EV penetration, U.S. light-duty EV sales, U.S. EV sales share of new vehicle sales, U.S. public EV chargers, U.S. oil production, Average U.S. electricity price, 1,250 megawatts of renewable energy to the U.S. grid, $312 billion in U.S. EV investments over past four years, U.S. automotive landscape, U.S. solar capacity installed, Solar share of total U.S. electrical generation (2023), U.S. states with cumulative solar >=1 GW, New U.S. solar module manufacturing capacity 2024, Solar soft costs (U.S.), U.S. defense firms and executives, U.S. Customs and Border Protection, 10,329 U.S. adults, Half of U.S. adults, 9% of U.S. adults, U.S. will build necessary EV infrastructure, Some U.S. states, U.S. Energy Information Administration, U.S. economy sentiment index Q2 2024, Franchised dealers' U.S. economy sentiment index, Independent dealers' U.S. economy sentiment index, 1,026 U.S. auto dealers, yen carry‑trade unwind and higher U.S. rate expectations, U.S. 10‑year yields, U.S. administration, major U.S. trade partners (Mexico, Europe, Canada, Vietnam), Senior Investment Strategy Director at U.S. Bank Asset Management, U.S. Bank Asset Management, U.S. Bank, increased U.S. oil drilling, U.S. economy, oil prices and U.S. economic health, ~70% of U.S. GDP, 50% of U.S. vehicles by 2040, U.S. gasoline and diesel use by 50%, U.S. oil consumption, U.S. electricity grid, U.S. economic resilience to oil price shocks, U.S. net exporter status (oil products), EV sales in US Q1 2024, EV sales Q1 2024, Tesla US sales Q1 2024, Tesla market share Q1 2024, Average transaction price Q1 2024, Tesla average transaction price Q1 2024, Leased EV proportion Q1 2024, Cadillac EV sales Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024",
+      "context_triples_count": 150,
+      "time_taken": 1.4188711643218994,
+      "prompt_tokens": 5096,
+      "completion_tokens": 176
+    }
+  },
+  {
+    "id": 16,
+    "question": "What was the total dollar amount of U.S. electric vehicle investments mentioned in the EDF report?",
+    "flat_rag": {
+      "answer": "The EDF report states that manufacturers have announced **$188 billion** in U.S. electric‑vehicle and EV‑battery manufacturing investments.",
+      "sources": [
+        "doc_14.txt",
+        "doc_30.txt",
+        "doc_6.txt"
+      ],
+      "time_taken": 0.8232429027557373,
+      "prompt_tokens": 1787,
+      "completion_tokens": 135
+    },
+    "graph_rag": {
+      "answer": "The Environmental Defense Fund’s report found that total U.S. electric‑vehicle investments amount to **about $188 billion**.",
+      "entity": "U.S. Energy Information Administration (EIA), U.S. Consumption of Electricity by Light-Duty Electric Vehicle Types, estimated U.S. consumption of electricity by light-duty electric vehicle types, U.S. BEV volume, U.S. EV adoption, U.S. EV market, around 70% of U.S. EV sales, ~8% U.S. EV sales penetration, U.S. Electric Vehicle Manufacturing Investments and Jobs: Characterizing the Impacts of the Inflation Reduction Act after 18 Months, U.S. electric vehicle and battery manufacturing market, U.S. manufacturing facilities, Recent EV manufacturing investments in the U.S. are outpacing every other region, Private investments in the U.S. since 2021, U.S. investments from 2016 to 2020, approximately 30% of total U.S. energy needs, approximately 70% of U.S. petroleum consumption, U.S. economy and diversify transportation fleet, second-most prevalent U.S. electricity source in 2020, U.S.-China Economic and Security Review Commission, U.S. stock exchanges, U.S. EV models 2022, Ford (U.S.), U.S. policy recommendation, Lucid (U.S. electric vehicle maker), U.S., June 11 2024 at 8:00 AM U.S. Eastern Time, U.S. and Canada customers, REEcornerTM modules for dedicated EV chassis in U.S. and Canada, U.S. automobile dealers view market as weak, U.S. government, U.S. federal government, Seven U.S. EV nameplates, ≈70% of total U.S. EV sales, U.S. EV penetration calculations, U.S. EV penetration, U.S. light-duty electric vehicle sales, U.S. light-duty EV sales, U.S. EV sales share of new vehicle sales, U.S. public EV chargers, U.S. electric vehicle sales blog post (Jan 26, 2024), U.S. oil production, Average U.S. electricity price, 1,250 megawatts of renewable energy to the U.S. grid, $312 billion in U.S. EV investments over past four years, U.S. automotive landscape, U.S. solar capacity installed, Solar share of total U.S. electrical generation (2023), U.S. states with cumulative solar >=1 GW, New U.S. solar module manufacturing capacity 2024, Solar soft costs (U.S.), U.S. defense firms and executives, U.S. Customs and Border Protection, 10,329 U.S. adults, Half of U.S. adults, 9% of U.S. adults, U.S. will build necessary EV infrastructure, Some U.S. states, U.S. Energy Information Administration, U.S. economy sentiment index Q2 2024, Franchised dealers' U.S. economy sentiment index, Independent dealers' U.S. economy sentiment index, 1,026 U.S. auto dealers, yen carry‑trade unwind and higher U.S. rate expectations, U.S. 10‑year yields, U.S. administration, major U.S. trade partners (Mexico, Europe, Canada, Vietnam), Senior Investment Strategy Director at U.S. Bank Asset Management, U.S. Bank Asset Management, U.S. Bank, increased U.S. oil drilling, U.S. economy, oil prices and U.S. economic health, ~70% of U.S. GDP, 50% of U.S. vehicles by 2040, U.S. gasoline and diesel use by 50%, U.S. oil consumption, U.S. electricity grid, U.S. economic resilience to oil price shocks, U.S. net exporter status (oil products), Men, investment, Report, F",
+      "context_triples_count": 150,
+      "time_taken": 1.585853099822998,
+      "prompt_tokens": 5220,
+      "completion_tokens": 208
+    }
+  },
+  {
+    "id": 17,
+    "question": "What specific consumer incentives from state, city, or utilities support EV purchases in the leading metropolitan areas?",
+    "flat_rag": {
+      "answer": "Based on the documents, the leading U.S. metropolitan areas that have the highest electric‑vehicle uptake are supported by a bundle of **state, city and utility‑sponsored consumer incentives**, including:\n\n- **Direct purchase incentives/rebates** – cash incentives ranging from **about $1,500 up to more than $5,500** per vehicle.  \n- **High‑occupancy vehicle (HOV) lane access** – allowing EV owners to use car‑pool lanes regardless of passenger count.  \n- **Toll reductions** – discounted or waived tolls for electric‑vehicle drivers.  \n- **Free or reduced‑price parking** – complimentary parking or lower parking fees at municipal facilities and public lots.  \n- **Other fee‑reduction measures** – assorted local fee cuts (e.g., registration or congestion‑zone fees) that lower the overall cost of owning an EV.\n\nThese incentives are offered through a mix of **state programs, city ordinances and utility‑run purchase‑rebate schemes**, and they are a key factor behind the high EV market share observed in those top metropolitan areas.",
+      "sources": [
+        "doc_1.txt",
+        "doc_48.txt",
+        "doc_54.txt",
+        "doc_9.txt"
+      ],
+      "time_taken": 2.8318090438842773,
+      "prompt_tokens": 1769,
+      "completion_tokens": 537
+    },
+    "graph_rag": {
+      "answer": "Based on the knowledge graph, I cannot answer this query.",
+      "entity": "Utilities, EV purchases",
+      "context_triples_count": 15,
+      "time_taken": 1.027914047241211,
+      "prompt_tokens": 588,
+      "completion_tokens": 181
+    }
+  },
+  {
+    "id": 18,
+    "question": "Describe the relationship between public and workplace charging availability and electric vehicle growth.",
+    "flat_rag": {
+      "answer": "The documents show a clear, positive link between the amount of public‑ and workplace‑charging infrastructure and the pace of electric‑vehicle (EV) adoption.\n\n* **Higher charger density → higher EV uptake** – In the United States, the ten most‑populous metropolitan areas with the greatest EV market share (about 10 % of vehicles) also have the most chargers: roughly **935 public chargers per million residents** and **430 workplace chargers per million residents**. Those same areas are the ones where EV growth is strongest.  \n\n* **Low charger density → slower growth** – By contrast, about half of the U.S. population lives in regions that have only **≈20 % of the public‑charger density** and **<10 % of the workplace‑charger density** found in the top‑ten markets. Those regions experience markedly lower EV penetration.\n\n* **Future importance of public charging** – As more people buy EVs, a larger share will lack the home‑parking space or electrical capacity needed for residential charging. The surveys note that **42 % of non‑owners say they cannot charge at home**, making public‑charging infrastructure increasingly critical for continued market expansion.\n\nTogether, the evidence indicates that **greater availability of public and workplace charging stations supports and accelerates EV growth**, while limited charger coverage constrains adoption.",
+      "sources": [
+        "doc_1.txt",
+        "doc_3.txt",
+        "doc_48.txt",
+        "doc_70.txt",
+        "doc_8.txt"
+      ],
+      "time_taken": 2.9843552112579346,
+      "prompt_tokens": 1786,
+      "completion_tokens": 573
+    },
+    "graph_rag": {
+      "answer": "Public‑charging availability is directly tied to electric‑vehicle (EV) growth in the knowledge graph:\n\n* **Infrastructure as a growth driver** – The graph notes that public‑charging stations are *identified as an obstacle to greater EV adoption*【doc_44】. This implies that when public‑charging availability is limited, EV uptake slows, and conversely, expanding the network helps accelerate growth.\n\n* **Rapid expansion of public‑charging supply** – In 2023, **1.1 million public charging points were added**, a 40 % increase over the 2022 stock【doc_18】, bringing the global total to **3.9 million points by the end of 2023**【doc_18】. In the United States alone, the number of public stations reached **more than 60,000 in 2024**, offering **over 162,000 charging ports**【doc_17】. These expansions are part of a broader *future initiative* to improve the reliability and reach of public‑charging infrastructure【doc_35】, and installation services are expected to *scale rapidly* as this expansion continues【doc_48】.\n\n* **Usage share** – Public‑charging sessions already account for a sizable share of total charging activity (33 % in the United States and 23 % in Europe)【doc_70】, underscoring the importance of public‑charging availability for everyday EV use.\n\nTaken together, the graph shows that **greater public‑charging availability supports EV growth**, while gaps in that availability are seen as a barrier to wider adoption.\n\nThe knowledge graph does **not contain any triples about workplace‑charging availability**, so a direct relationship between workplace charging and EV growth cannot be described from the provided data.",
+      "entity": "Public charging stations, public charging stations, national network of public charging stations, Public charging stations in the United States, Public charging points worldwide, Public charging points added in 2023, 17 million public charging points by 2030, Public charging attempts, Public charging infrastructure, scale rapidly as public charging expands, EV owners (public charging), Public charging sessions in United States, Public charging sessions in Europe, Electric vehicle growth",
+      "context_triples_count": 32,
+      "time_taken": 4.144608020782471,
+      "prompt_tokens": 1118,
+      "completion_tokens": 793
+    }
+  },
+  {
+    "id": 19,
+    "question": "What challenges or issues arose in the EU-US relations due to the Inflation Reduction Act?",
+    "flat_rag": {
+      "answer": "Based on the documents, I cannot answer this query.",
+      "sources": [
+        "doc_50.txt"
+      ],
+      "time_taken": 0.7561049461364746,
+      "prompt_tokens": 2910,
+      "completion_tokens": 105
+    },
+    "graph_rag": {
+      "answer": "The Inflation Reduction Act (IRA) has become a source of friction in the trans‑Atlantic relationship. According to the knowledge‑graph:\n\n* **The act directly affects EU‑US relations** – the EU‑US relationship is listed as being *affected by* the Inflation Reduction Act [doc 50].\n* **The act “impacts” EU‑US relations** – the IRA is recorded as having an *impact* on the EU‑US relationship [doc 50].\n* **European (and other allied) governments have voiced concerns** – the EU, together with South Korea and Japan, *express concerns* that the IRA’s provisions are “market‑distorting” [doc 25].\n\nThese points indicate that the challenges arising from the IRA include:\n\n1. **Trade‑policy tension** – the IRA’s subsidies and tax credits are seen as giving U.S. manufacturers an advantage, prompting the EU to view the legislation as a distortion of fair competition.\n2. **Diplomatic friction** – because the act “impacts” the EU‑US relationship, it has become a diplomatic issue that the two sides must address in ongoing trade and regulatory discussions.\n3. **Calls for negotiations or adjustments** – the expressed concerns from the EU (and other partners) suggest that the IRA is prompting negotiations to mitigate its perceived market‑distorting effects.\n\nIn short, the Inflation Reduction Act has introduced trade‑related challenges and diplomatic strains in EU‑US relations, primarily because European partners view its subsidy provisions as unfairly advantaging U.S. firms and distorting the market.",
+      "entity": "Europe BEV volume, Europe EV adoption, European OEMs, expensive branded BEVs in Europe, United States, China, Mexico, Indonesia, European Union, approximately 70% of U.S. petroleum consumption, Europe, Europe, Southeast Asia, Brazil, carbon neutrality by 2050, European Union, 63% of new car sales in Western Europe by 2021 (forecast), other European markets, Number of EV models in EU, climate‑neutral production car by 2030, European carmakers, 19.7 billion EUR, 153.2 billion EUR, 11.3 billion EUR, 31.7 billion EUR, 10.0 billion EUR, 3.7 billion EUR, 14.3 billion EUR, 74,200 EUR, 3.1 billion EUR, 20.3 billion EUR, 1.7 billion EUR, 62.0 billion EUR, 135.0 billion EUR, 5.30 EUR, up to 3.0 billion EUR, European manufacturing joint venture to Iveco Group, Europe public chargers, 80% BEV sales by 2030 in Europe, Suzuki (Europe), EU, South Korea, Japan, European subsidies, several European markets, 63% of new car sales in Western Europe by 2021, New EV models in Europe, BEV models in EU, EU car registrations, EV registrations in Western Europe, all European OEMs, Expensive branded BEVs in Europe, 81% in China and Europe, European governments, International EV markets (Europe, Asia), US, Europe, India, HEV lineups, CATL will hold 35% of European EV battery market by 2030, EU-US relations, European Parliament, EU-US relations after the Inflation Reduction Act, and the challenges ahead, 47-year alliance with the European Union, UK trade with the EU, Neural network modeling, 8% negative, 28% positive, 63% neutral in social media posts, increased tariffs and trade barriers with EU, relocation of some UK companies to EU countries, European Central Bank (ECB), major U.S. trade partners (Mexico, Europe, Canada, Vietnam), European equities, Bitcoin vs. Ethereum: Similarities, differences and considerations, Trade tariffs by US and EU, European Commission, 30 million zero-emission vehicles on Europe’s roads by 2030, three million public charge points in Europe by 2030, EU CO2 emission standards, 75% of all European EV charging stations, Fleet sector in Europe, 20% of Europe’s vehicle parc and >40% of total kilometres travelled, European fleet EVs, European fleet EVs today, smaller than Europe’s fleet share, Europe charging target 2030, Eurozone, European luxury goods and telecoms, European value opportunities, sector neutral metrics (PE, PB, PDiv), petroleum product use by one third, European market, European battery investments_2022, 30% faster at new model development than legacy US/EU/Japan makers, Chinese vehicle exports to Europe, Top five European markets, EV sales in top five European markets (Q2 2024 vs Q2 2023), ICE sales in top five European markets (Q2 2024 vs Q2 2023), Electric vehicle market share in EU top five (Q2 2024), Full and mild hybrid sales (EU top five, Q2 2024 vs Q2 2023), Hybrid market share in EU top five (Q2 2024), Europe BEV growth, Public charging sessions in Europe, U.S. Energy Information Administration (EIA), U.S. Consumption of Electricity by Light-Duty Electric Vehicle Types, estimated U.S. consumption of electricity by light-duty electric vehicle types, U.S. BEV volume, U.S. EV adoption, U.S. EV market, around 70% of U.S. EV sales, ~8% U.S. EV sales penetration, U.S. Electric Vehicle Manufacturing Investments and Jobs: Characterizing the Impacts of the Inflation Reduction Act after 18 Months, U.S. electric vehicle and battery manufacturing market, U.S. manufacturing facilities, Recent EV manufacturing investments in the U.S. are outpacing every other region, Private investments in the U.S. since 2021, U.S. investments from 2016 to 2020, approximately 30% of total U.S. energy needs, U.S. economy and diversify transportation fleet, second-most prevalent U.S. electricity source in 2020, U.S.-China Economic and Security Review Commission, U.S. stock exchanges, U.S. EV models 2022, Ford (U.S.), U.S. policy recommendation, Lucid (U.S. electric vehicle maker), U.S., June 11 2024 at 8:00 AM U.S. Eastern Time, U.S. and Canada customers, REEcornerTM modules for dedicated EV chassis in U.S. and Canada, U.S. automobile dealers view market as weak, U.S. government, U.S. federal government, Seven U.S. EV nameplates, ≈70% of total U.S. EV sales, U.S. EV penetration calculations, U.S. EV penetration, U.S. light-duty electric vehicle sales, U.S. light-duty EV sales, U.S. EV sales share of new vehicle sales, U.S. public EV chargers, U.S. electric vehicle sales blog post (Jan 26, 2024), U.S. oil production, Average U.S. electricity price, 1,250 megawatts of renewable energy to the U.S. grid, $312 billion in U.S. EV investments over past four years, U.S. automotive landscape, U.S. solar capacity installed, Solar share of total U.S. electrical generation (2023), U.S. states with cumulative solar >=1 GW, New U.S. solar module manufacturing capacity 2024, Solar soft costs (U.S.), U.S. defense firms and executives, U.S. Customs and Border Protection, 10,329 U.S. adults, Half of U.S. adults, 9% of U.S. adults, U.S. will build necessary EV infrastructure, Some U.S. states, U.S. Energy Information Administration, U.S. economy sentiment index Q2 2024, Franchised dealers' U.S. economy sentiment index, Independent dealers' U.S. economy sentiment index, 1,026 U.S. auto dealers, yen carry‑trade unwind and higher U.S. rate expectations, U.S. 10‑year yields, U.S. administration, Senior Investment Strategy Director at U.S. Bank Asset Management, U.S. Bank Asset Management, U.S. Bank, increased U.S. oil drilling, U.S. economy, oil prices and U.S. economic health, ~70% of U.S. GDP, 50% of U.S. vehicles by 2040, U.S. gasoline and diesel use by 50%, U.S. oil consumption, U.S. electricity grid, U.S. economic resilience to oil price shocks, U.S. net exporter status (oil products), Inflation Reduction Act, Inflation Reduction Act (IRA), Inflation Reduction Act of 2022, Inflation Reduction Act impact, inflation, Inflation, F, US Inflation Reduction Act",
+      "context_triples_count": 150,
+      "time_taken": 3.2359392642974854,
+      "prompt_tokens": 5256,
+      "completion_tokens": 527
+    }
+  },
+  {
+    "id": 20,
+    "question": "Which EV model was launched by Cadillac that drove its sales growth in Q1 2024?",
+    "flat_rag": {
+      "answer": "Cadillac’s strong Q1 2024 EV sales were driven by its **Lyriq** model.",
+      "sources": [
+        "doc_2.txt",
+        "doc_30.txt"
+      ],
+      "time_taken": 0.8259639739990234,
+      "prompt_tokens": 1818,
+      "completion_tokens": 134
+    },
+    "graph_rag": {
+      "answer": "The sales surge for Cadillac in Q1 2024 was driven by the launch of the **Cadillac Lyriq** electric model.",
+      "entity": "Cadillac EV sales Q1 2024, Cadillac EV model, BMW, Cadillac, Ford, Hyundai, Kia, Lexus, Mercedes, Rivian, Vinfast, Cadillac Lyriq, EV sales in US Q1 2024, EV sales Q1 2024, Tesla US sales Q1 2024, Tesla market share Q1 2024, Average transaction price Q1 2024, Tesla average transaction price Q1 2024, Leased EV proportion Q1 2024, Mercedes EV sales Q1 2024, BMW EV sales Q1 2024, Audi EV sales Q1 2024, Chevy Bolt sales Q1 2024, Chevy Bolt production status Q1 2024, Ford EV sales Q1 2024, EV sales declined Q1 2024 first QoQ downturn since Q2 2020, unaudited financial results for Q1 2024, 33,059 vehicles in Q1 2024, RMB8,174.1 million (US$1,132.1 million) in Q1 2024, RMB14,736.8 million in Q1 2024, RMB1,739.4 million in Q1 2024, 11.8% in Q1 2024, 14.0% in Q1 2024, RMB(2,086.9) million in Q1 2024, RMB(2,022.1) million in Q1 2024, 1, 2, Top corporate solar users (Q1 2024), CADSI Q1 2024, 2024",
+      "context_triples_count": 150,
+      "time_taken": 1.2228999137878418,
+      "prompt_tokens": 5620,
+      "completion_tokens": 122
+    }
+  }
+]

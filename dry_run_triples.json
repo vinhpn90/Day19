@@ -1,0 +1,243 @@
+[
+  {
+    "filename": "doc_2.txt",
+    "triples": [
+      {
+        "subject": "Kelley Blue Book",
+        "relation": "ANALYZED_SALES_DATA",
+        "object": "US EV sales Q1 2024"
+      },
+      {
+        "subject": "US",
+        "relation": "EV_SALES_VOLUME_Q1_2024",
+        "object": "268,909"
+      },
+      {
+        "subject": "EV share of total new-vehicle sales Q1 2024",
+        "relation": "PERCENTAGE",
+        "object": "7.3%"
+      },
+      {
+        "subject": "EV share of total new-vehicle sales Q1 2024",
+        "relation": "DECREASED_FROM",
+        "object": "Q4 2023"
+      },
+      {
+        "subject": "EV sales Q1 2024",
+        "relation": "YOY_GROWTH",
+        "object": "2.6%"
+      },
+      {
+        "subject": "EV sales Q1 2024",
+        "relation": "QOQ_CHANGE",
+        "object": "-15.2%"
+      },
+      {
+        "subject": "EV sales Q1 2023",
+        "relation": "YOY_GROWTH",
+        "object": "46.4%"
+      },
+      {
+        "subject": "EV sales Q1 2023",
+        "relation": "QOQ_GROWTH",
+        "object": "15.5%"
+      },
+      {
+        "subject": "EV sales Q1 2022",
+        "relation": "YOY_GROWTH",
+        "object": "81.2%"
+      },
+      {
+        "subject": "EV sales Q1 2022",
+        "relation": "QOQ_GROWTH",
+        "object": "20.4%"
+      },
+      {
+        "subject": "Stephanie Valdez Streaty",
+        "relation": "TITLE",
+        "object": "Director of Industry Insights at Cox Automotive"
+      },
+      {
+        "subject": "Stephanie Valdez Streaty",
+        "relation": "SAID",
+        "object": "EV sales declined Q1 2024, first quarter‑over‑quarter downturn since Q2 2020"
+      },
+      {
+        "subject": "Tesla",
+        "relation": "US_SALES_CHANGE_Q1_2024_YOY",
+        "object": "-13.3%"
+      },
+      {
+        "subject": "Tesla",
+        "relation": "MARKET_SHARE_Q1_2024_US",
+        "object": "51.3%"
+      }
+    ],
+    "prompt_tokens": 1028,
+    "completion_tokens": 2048,
+    "time_taken": 12.30918574333191
+  },
+  {
+    "filename": "doc_1.txt",
+    "triples": [
+      {
+        "subject": "United States",
+        "relation": "ELECTRIC_VEHICLE_SALES_ANNUAL_2018_2020",
+        "object": "315,000 vehicles"
+      },
+      {
+        "subject": "Electric vehicle market",
+        "relation": "STARTED_WITH",
+        "object": "few thousand vehicles in 2010"
+      },
+      {
+        "subject": "2020",
+        "relation": "ELECTRIC_SHARE_OF_NEW_VEHICLE_SALES",
+        "object": "2.4%"
+      },
+      {
+        "subject": "2019",
+        "relation": "ELECTRIC_SHARE_OF_NEW_VEHICLE_SALES",
+        "object": "2%"
+      },
+      {
+        "subject": "States with ZEV regulations",
+        "relation": "COMBINED_NEW_ELECTRIC_VEHICLE_SHARE",
+        "object": "5%"
+      },
+      {
+        "subject": "States without ZEV regulations",
+        "relation": "AVERAGE_ELECTRIC_VEHICLE_SHARE",
+        "object": "1.3%"
+      },
+      {
+        "subject": "States with ZEV regulations",
+        "relation": "RESPONSIBLE_FOR",
+        "object": "two-thirds of 2020 U.S. electric vehicle sales"
+      },
+      {
+        "subject": "States with ZEV regulations",
+        "relation": "RESPONSIBLE_FOR",
+        "object": "less than one-third of overall light‑duty vehicle sales"
+      },
+      {
+        "subject": "ZEV regulations",
+        "relation": "RESULT_IN",
+        "object": "at least 13 more electric models available per state"
+      },
+      {
+        "subject": "Regulations requiring greater EV model availability",
+        "relation": "ARE_ESSENTIAL_FOR",
+        "object": "market growth"
+      },
+      {
+        "subject": "Top 10 metropolitan areas with highest EV uptake",
+        "relation": "AVERAGE_ELECTRIC_SHARE",
+        "object": "10%"
+      },
+      {
+        "subject": "Top 10 metropolitan areas with highest EV uptake",
+        "relation": "AVERAGE_PUBLIC_CHARGERS_PER_MILLION",
+        "object": "935"
+      },
+      {
+        "subject": "Top 10 metropolitan areas with highest EV uptake",
+        "relation": "AVERAGE_WORKPLACE_CHARGERS_PER_MILLION",
+        "object": "430"
+      },
+      {
+        "subject": "Half of U.S. population",
+        "relation": "LIVES_IN_AREA_WITH",
+        "object": "20% of public charging availability compared to top‑ten markets"
+      },
+      {
+        "subject": "Half of U.S. population",
+        "relation": "LIVES_IN_AREA_WITH",
+        "object": "less than 10% of workplace charging benchmark"
+      },
+      {
+        "subject": "Top 11 metropolitan areas with highest uptake",
+        "relation": "OFFER_CONSUMER_INCENTIVES_RANGE",
+        "object": "$1,500 to >$5,500"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "state purchase incentives"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "city purchase incentives"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "utility purchase incentives"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "HOV access"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "toll reduction"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "free parking"
+      },
+      {
+        "subject": "Consumer incentives",
+        "relation": "INCLUDE",
+        "object": "fee reduction"
+      },
+      {
+        "subject": "Metropolitan areas with greatest EV uptake",
+        "relation": "HAD_PROMOTION_ACTIONS_COUNT",
+        "object": "31 to 44"
+      },
+      {
+        "subject": "Metropolitan areas with lowest EV uptake",
+        "relation": "HAD_PROMOTION_ACTIONS_COUNT",
+        "object": "less than half of 31 to 44"
+      },
+      {
+        "subject": "Report \"Evaluating electric vehicle market growth across U.S. cities\"",
+        "relation": "PUBLISHED_ON",
+        "object": "September 14, 2021"
+      },
+      {
+        "subject": "Report \"Evaluating electric vehicle market growth across U.S. cities\"",
+        "relation": "PUBLISHED_BY",
+        "object": "ICCT"
+      },
+      {
+        "subject": "ICCT",
+        "relation": "AUTHORED_BY",
+        "object": "Anh Bui"
+      },
+      {
+        "subject": "ICCT",
+        "relation": "AUTHORED_BY",
+        "object": "Peter Slowik"
+      },
+      {
+        "subject": "ICCT",
+        "relation": "AUTHORED_BY",
+        "object": "Nic Lutsey"
+      },
+      {
+        "subject": "Study",
+        "relation": "IS_UPDATE_OF",
+        "object": "previous analysis of state, local, and utility actions to promote electric vehicles"
+      }
+    ],
+    "prompt_tokens": 930,
+    "completion_tokens": 1993,
+    "time_taken": 17.308307886123657
+  }
+]
